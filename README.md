@@ -20,7 +20,7 @@ connpassイベントの参加者の中に、指定したユーザーが存在す
 
 ```
 const targetUserList = [
-  "targetUserName", // 通知対象としたいユーザーの名前
+  "targetUserName", // 通知対象としたいconnpassアカウントのユーザーID
 ];
 ```
 
