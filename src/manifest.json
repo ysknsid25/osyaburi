@@ -1,8 +1,9 @@
 {
     "name": "Osyaburi",
     "version": "1.0.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "description": "Notify you of the username of the user you specified, if any, attending the connpass event.",
+    "permissions": ["storage"],
     "content_scripts": [
         {
             "matches": ["*://*.connpass.com/event/*/participation/*"],
@@ -13,5 +14,10 @@
         "16": "icon/icon16.png",
         "48": "icon/icon48.png",
         "128": "icon/icon128.png"
+    },
+    "action": {
+        "default_title": "Osyaburi",
+        "default_icon": "icon/icon48.png",
+        "default_popup": "popup.html"
     }
 }
