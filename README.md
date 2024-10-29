@@ -12,6 +12,10 @@ connpassイベントの参加者の中に、指定したユーザーが存在す
 
 ## 使い方
 
+[chrome ウェブストア](https://chromewebstore.google.com/category/extensions?hl=ja)は公開審査中です。
+
+公開されるまでは、GitHubからソースをcloneして`chrome://extensions/`から「パッケージ化されていない拡張機能を読み込む」を選んで`clone`したリポジトリの`src`フォルダを読み込ませて使ってみてください。
+
 拡張機能をインストール後、アイコンをクリックして表示されるテキストエリアに、存在をお知らせしてほしいconnpassユーザーのIDを改行して入力します。
 
 ![](/images/2024-10-29-23-08-24.png)
